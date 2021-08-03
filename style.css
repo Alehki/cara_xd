@@ -1,0 +1,136 @@
+
+body{
+    margin: 0;
+    background-color: rgb(235, 108, 108);
+}
+
+
+/* .pelo{
+    background-color: rgb(226, 158, 12);
+    width: 400px;
+    height: 50px;
+    border-radius: 50%;
+} */
+
+.cabeza{
+    background-color: bisque;
+    width: 400px;
+    height: 480px;
+    margin: 20px auto;
+    /* border-radius: 100px / 400px; */
+    position: relative;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+
+    border-bottom:1px solid rgb(70, 25, 11);
+}
+
+
+.ojo_1, .ojo_2{
+    background-color: rgb(240, 234, 234);
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    margin-top: 50px;
+    /* border-radius: 50%; */
+    border-radius: 100px / 50px;
+}
+
+.ojo_1{
+    left: 90px;
+}
+
+.ojo_2{
+    left: 220px;
+}
+
+.ojo_1--color, .ojo_2--color{
+    background-color: rgb(30, 30, 46);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+.punto_1, .punto_2{
+    background-color: burlywood;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 45px;
+    top: 25px;
+    border-radius: 50%;
+}
+
+
+.nariz{
+    background-color: rgb(197, 129, 26);
+    width: 20px;
+    height: 60px;
+    position: absolute;
+    z-index: 1;
+    left: 190px;
+    top: 40%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.kiwi_1, .kiwi_2{
+    background-color: rgb(197, 129, 26);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+}
+
+.kiwi_1{
+    left: 5px;
+}
+
+.kiwi_2{
+    left: -15px;
+}
+
+
+.boca{
+    background-color: transparent;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom: 10px solid;
+}
+
+.boca:hover{
+    background-color: rgb(226, 138, 6);
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top: 10px solid;
+}
+
+.diente{
+    background-color: bisque;
+    width: 50px;
+    height: 50px;
+    margin: 40px auto;
+    margin-top: 0;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
